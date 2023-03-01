@@ -1,4 +1,4 @@
-// Purpose of a variable
+//////// Purpose of a variable //////////
     // is to hold or reference data
     // var, let, or const - the difference is what we call a "scope"
         // var has a function scope (also known as a local scope) and let/const have more limited block scope
@@ -17,27 +17,20 @@
         person = {name: "Barney"} // uncaught typeError
 
 
-        // Basic Document structure
+let name = "Alyssa",
+age, 
+town = "Fremont"
 
-alert("Hello World"); // alert is a command in JS with an argument "hello world"
+// In JS, when naming variables, the convention is to name the identifiers using lowerCamelCase. ex: numActivePlayers
 
+//Dynamically-typed languages such as JS, Python, and Ruby allow variables to be assigned different types of data during runtime. 
+// Declare a variable named data and initialize with a number 
 
-var name = prompt("What is your name?")
+var data = 123
 
-// Variables
+//Reassign a different type of data is allowed
 
-var age = 44; // name of variable storing a pos integer
-var status = -10; // we can also store neg integers
+data = "Hello"
 
-var gpa = 3.45; //floating point number = decimals
-
-var output = "";
-
-output += "Age " + age;
-output += "<br/>";
-
-
-alert("Mark is " + age + " years old"); // this is called concatenation when we are adding all strings 
-
-
-
+let m = 15 //I'm a number 
+m = "hey" //Now I'm a string
